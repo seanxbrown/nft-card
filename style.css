@@ -67,7 +67,6 @@ img {
 
 .creator-information-container {
     display: flex;
-    justify-content: space-between;
 }
 
 .price-container, .time-container {
@@ -87,4 +86,22 @@ img {
 .time, .price {
     margin-left: 0.75rem;
     font-size: 0.9rem;
+}
+
+.avatar-container {
+    max-width: 20%;;
+}
+
+.avatar {
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    max-width: 100%;
+
+}
+
+.creator-information {
+    display: flex;
+    align-items: center ;
+    font-size: 0.9rem;
+    margin-left: 1rem;
 }
