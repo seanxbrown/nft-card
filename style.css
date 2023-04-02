@@ -61,6 +61,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 1rem;
+    border-bottom: 1px solid var(--line)
     
 }
 
@@ -71,6 +72,7 @@ img {
 
 .price-container, .time-container {
     display: flex;
+    margin-bottom: 1rem;
 }
 
 .price-container {
