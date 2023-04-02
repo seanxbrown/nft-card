@@ -57,13 +57,32 @@ img {
     color: var(--white)
 }
 
-.price-container {
-    display: flex;
-    justify-content: space-between;
+.price-detail-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-bottom: 1rem;
+    
 }
 
 .creator-information-container {
     display: flex;
     justify-content: space-between;
+}
+
+.price-container, .time-container {
+    display: flex;
+}
+
+.price-container {
+    grid-column: 1 / 2;
+}
+
+.time-container {
+    grid-column: 2 / 3;
+    justify-content: end;
+}
+
+.time, .price {
+    margin-left: 0.75rem;
+    font-size: 0.9rem;
 }
