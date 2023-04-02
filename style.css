@@ -4,6 +4,38 @@
     box-sizing: border-box;
 }
 
+:root {
+    --main-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    
+}
+
 body {
     font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: var(--main-bg)
+}
+
+.card-component {
+    background-color: var(--card-bg);
+}
+
+.card-title {
+    color: var(--white)
+}
+
+.price {
+    color: var(--cyan)
+}
+
+.card-detail, .time, .creator-information {
+    color: var(--main-blue)
+}
+
+.creator-name {
+    color: var(--white)
 }
