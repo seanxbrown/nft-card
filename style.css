@@ -17,11 +17,17 @@
 body {
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
-    background-color: var(--main-bg)
+    background-color: var(--main-bg);
 }
 
 .card-component {
     background-color: var(--card-bg);
+    max-width: 600px;
+    margin: auto;
+}
+
+.card-image-container {
+    overflow: hidden;
 }
 
 .card-title {
@@ -38,4 +44,14 @@ body {
 
 .creator-name {
     color: var(--white)
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.creator-information-container {
+    display: flex;
+    justify-content: space-between;
 }
