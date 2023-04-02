@@ -114,3 +114,8 @@ body {
     font-size: 0.9rem;
     margin-left: 1rem;
 }
+
+.creator-name:hover, .card-title:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
