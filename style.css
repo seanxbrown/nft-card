@@ -20,10 +20,17 @@ body {
     background-color: var(--main-bg);
 }
 
+#page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .card-component {
     background-color: var(--card-bg);
     max-width: 400px;
-    margin: auto;
     border-radius: 15px;
 }
 
