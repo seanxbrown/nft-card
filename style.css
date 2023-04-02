@@ -24,14 +24,16 @@ body {
     background-color: var(--card-bg);
     max-width: 400px;
     margin: auto;
+    border-radius: 15px;
 }
 
 .card-container {
     padding: 1rem;
 }
 
-img {
+.coin-logo {
     max-width: 100%;
+    border-radius: 15px;
 }
 
 .card-title {
