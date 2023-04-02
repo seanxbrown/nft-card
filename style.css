@@ -35,7 +35,8 @@ img {
 }
 
 .card-title {
-    color: var(--white)
+    color: var(--white);
+    font-weight: bold;
 }
 
 .price {
@@ -46,6 +47,12 @@ img {
     color: var(--main-blue)
 }
 
+.card-detail {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+
+}
+
 .creator-name {
     color: var(--white)
 }
@@ -53,6 +60,7 @@ img {
 .price-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
 .creator-information-container {
